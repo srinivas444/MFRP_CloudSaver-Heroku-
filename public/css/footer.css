@@ -1,0 +1,13 @@
+        #supporting {
+            padding-top: 5px;
+        }
+        
+        .nav-tabs li a {
+            font-size: 14px;
+        }
+    	#support_button
+    	{
+    		border: none;
+    		background-color: #79589F;
+    		color: #ffffff;
+    	}

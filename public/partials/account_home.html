@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	.Acc_profile{
+			margin-top: 0px;
+	}
+	#Acc_pwd1{
+		width: 50%;
+		border-top: 0px;
+		border-right: 0px;
+		border-left: 0px;
+		text-decoration: none;
+	}
+	#Acc_email{
+		border-top: 0px;
+		border-right: 0px;
+		border-left: 0px;
+		text-decoration: none;
+	}
+	#Acc_wer{
+		margin-top: 2%;
+	}		
+</style>
+</head>
+<body ng-controller="validateCtrl">
+	<div class="container">
+	{{em}}
+		<div class="col-sm-12 col-lg-12" id="Acc_wer">
+	  		<div class="col-xs-12 col-sm-12 col-lg-4">
+	  			<h2 class="Acc_profile">Profile</h2>
+	  			<p>Your email address is you identity on Heroku and is used to login.</p>
+	  		</div>
+	  		<div class="col-xs-12 col-sm-12 col-lg-8">
+				<div class="col-xs-12 col-sm-12 col-lg-4">
+				</div>
+	  			<div class="col-xs-12 col-sm-12 col-lg-5">
+						<div class="form-group">
+				      		<form>
+								<label for="email">Email Address</label>
+								<input class="form-control" id="Acc_email" type="email" name="email">
+      						</form>
+			    		</div>
+					<div class="form-group">
+		      			<form>
+		      				<label for="pwd">Name</label>
+		      				<input type="text" class="form-control" id="Acc_pwd1" name="user">
+		    			</form>
+		    		</div>
+					<div>
+		    			<p>Manage your avatar using <a href="#">Gravatar</a></p>
+		    		</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-lg-3">
+				</div>
+	    	</div>
+	  	</div>
+		<div class="col-xs-12 col-sm-12 col-lg-12">
+			<hr>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-lg-12">
+			<div class="col-xs-12 col-sm-12 col-lg-4">
+				<h2 class="Acc_profile">Password</h2>
+		  			<p>Changing your Password will also reset yor API key.</p>
+		  	</div>
+		  	<div class="col-xs-12 col-sm-12 col-lg-1">
+		  	</div>
+		  	<div class="col-xs-12 col-sm-12 col-lg-6">
+		  		<div class="col-xs-12 col-sm-12 col-lg-12">
+			  		<form class="form-group">
+		      			<form class="form-group">
+		      			<label for="email">Current Password</label>
+						<input type="password" class="form-control" id="pwd2" placeholder="Enter your current password" ng-model="current"></input><br>
+						<hr>
+		  				<label for="pwd">New Password</label>
+							<input type="password" class="form-control" id="pwd3" placeholder="Enter a new password" ng-model="newpass"><br>
+							<label for="pwd">Confirm New Password</label>
+							<input type="password" class="form-control" id="pwd4" placeholder="Enter the password again" ng-model="confirmPass"><br>
+							<input type="submit" value="Update Password" class="btn btn-primary" ng-click="update()"></input>{{p1}}
+					</form>
+			  		</form>
+		    	</div>
+		  		<div class="col-xs-12 col-sm-12 col-lg-1">
+		  		</div>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script type="text/javascript">
+	var app = angular.module('myApp', []);
+	app.controller('validateCtrl', ['$scope', function($scope) {
+  		$scope.update = function(){
+  				if($scope.confirmPass==$scope.newpass){
+  					$scope.p1="passwords match";
+  				}else{
+  					$scope.p1="passwords dont match";
+  			}
+  		}
+	}]);
+</script>
+</body>
+</html>

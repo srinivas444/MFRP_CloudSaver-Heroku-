@@ -1,0 +1,90 @@
+  <div class="container">
+        <div class="row" align="center">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 signup_logo"></div>
+                    <div class="col-md-4"></div>
+                </div>
+                <div>
+                    <h2>Sign up for free and experience Heroku today</h2>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-6" align="left">
+                        <h2>Free account</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <br>
+                        <h2>Free account</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <br>
+                        <h2>Free account</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <br>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="form-group" ng-submit="setpassword()" name="myForm" novalidate>
+
+                            <div class="FIRSTNAME signup_same">
+                                <input type="text" class="form-control" name="fname" ng-model="first_name" placeholder="First Name" ng-change="setbutton()" required>
+                                <span ng-show="myForm.fname.$dirty && myForm.fname.$invalid">
+									<span ng-show="myForm.fname.$error.required">Firstname is required.</span>
+                                </span>
+                            </div>
+                            <br>
+
+                            <div class="LASTNAME signup_same">
+                                <input type="text" name="lname" class="form-control" ng-model="last_name" placeholder="Last Name" required>
+                                <span ng-show="myForm.lname.$dirty && myForm.lname.$invalid">
+								<span ng-show="myForm.lname.$error.required">Lastname is required.</span>
+                                </span>
+                            </div>
+                            <br>
+
+
+                            <div class="Email signup_same">
+                                <input type="email" name="email" class="form-control" ng-model="user_email" placeholder="Email" required>
+                                <span ng-show="myForm.email.$dirty && myForm.email.$invalid">
+									<span ng-show="myForm.email.$error.required">Email is required.</span>
+	                                <span ng-show="myForm.email.$error.email">Invalid email address.</span>
+                                </span>
+                            </div>
+                            <br>
+
+                            <input type="text" class="form-control" placeholder="Company Name">
+                            <br>
+                            <select class="form-control" required="">
+                                <option>Select Country</option>
+                                <option>India</option>
+                                <option>USA</option>
+                                <option>England</option>
+                                <option>Australia</option>
+                            </select>
+                            <br>
+                            <br>
+                            <p>pick your primary development Language</p>
+                            <select class="form-control">
+                                <option>Select a Language</option>
+                                <option>JavaScript</option>
+                                <option>PHP</option>
+                                <option>Angular JS</option>
+                                <option>Java</option>
+                            </select>
+                            <br>
+                            <hr>
+                            <br>
+                            <input type="submit" value="Create Free Account" id="signup_button" class="form-control signup_free" ng-disabled="
+				myForm.fname.$dirty && myForm.fname.$invalid || myForm.lname.$dirty && myForm.lname.$invalid
+				|| myForm.email.$dirty && myForm.email.$invalid || btnDisable">
+                        </form>
+                        <p>Signing up signifies that you have read and agree to the <a class="signup_a" href="#">Terms of Service</a> and our <a class="signup_a" href="#">Privacy Policy.</a>
+                        </p>
+                        <br>
+                        <p>Already Have an Account? <a class="signup_a" ui-sref="login">Log in</a> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+    </div>

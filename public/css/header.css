@@ -1,0 +1,227 @@
+#
+content {
+    min - height: 100 % ;
+}
+.navbar - custom {
+        background - color: #7e61a4;
+    border-radius: 0px;
+    min-height: 65px;
+}
+
+.stock - color {
+        color: #8466b0;
+}
+.white1 {
+    color: # 8466 b0;
+    }
+    .new - btn {
+        padding: 0.30e m 1.5e m;
+        border - radius: 0.30e m;
+        border: 0.05e m solid #8466b0;
+}
+.apply-margin {
+    margin-top: 7px;
+}
+.navigation-bar2 {
+    background-color: # f7f8fc;
+        border - bottom: 1 px solid# eeeff3;
+    }
+    .dropdown - toggle {
+        margin - top: 14 px;
+        background - color: transparent;
+    }
+    .bannerspacing {
+        margin - top: 50 px;
+    }
+    .header - right a img {
+        max - width: 26 px;
+    }
+    .remove - textdec {
+        text - decoration: none;
+        list - style - type: none;
+    }
+footer {
+    border - top: 1 px solid# ebebeb;
+}
+.footer - list - inline - left {
+        float: left;
+    }
+    .footer - list - inline - left li,
+    .footer - list - inline - right li {
+        float: left;
+        display: inline;
+        padding: 10 px 10 px 0 px 10 px;
+    }
+    .footer - list - inline - left li a,
+    .footer - list - inline - right li a {
+        float: left;
+    }
+    .footer - list - inline - left li a h6,
+    .footer - list - inline - right li a h6 {
+        color: gray;
+    }
+    .footer - list - inline - right {
+        float: right;
+    }#
+navBarSearchForm input[type = text] {
+        width: 430 px!important;
+    }
+    .newapp - bar2 {
+        text - align: center;
+    }
+    .left - float {
+        float: left;
+    }
+    .right - float {
+        float: right;
+    }
+    .stock - text - color {
+        color: #8466b0;
+    font-weight: bold;
+}
+.margin-box {
+    margin: 30px 0px 30px 0px;
+}
+.white-bg {
+    background-color: white;
+}
+.small-margin {
+    margin-top: -19px;
+}
+.header-content {
+    color: # 3 f3f44;
+        text - align: center;
+        margin: 20 px;
+    }
+    .top - bar {
+        background - color: #f7f8fb;
+        max - width: 101 % ;
+    }
+    .pannel {
+        margin - top: 10 px;
+        margin - bottom: 10 px;
+    }
+    .first - column {
+        max - width: 500 px;
+    }
+    .pannel - name {
+        font - size: 18 px;
+        font - style: initial;
+        color: #79589f;
+}
+.sub-text {
+    font-size: 80%;
+    color: # 596981;
+    }
+    .margin - up {
+        margin - top: 14 px;
+    }
+hr {
+    margin - top: 20 px;
+    margin - bottom: 20 px;
+    border: 0;
+    border - top: 1 px solid# eee;
+    max - width: 80 % ;
+}
+.create - app - button {
+        text - align: center;
+    }
+    .stock {
+        background - color: #8466b0;
+}
+.btn-primary:hover {
+    color: white;
+    background-color: # 9e81 c2;
+        border - color: #ab8ecd;
+    }
+    .dynos - box {
+        border: 2 px solid# ebebeb;
+    }
+    .dynos - content {
+        padding: 30 px;
+    }
+    .addons - box {
+        margin - top: 20 px;
+    }
+    .access - padding {
+        padding: 15 px 0 px 15 px 0 px;
+    }
+    .rssr {
+        margin - bottom: 10 px;
+    }
+    .rssr1 {
+        margin - top: 20 px
+    }
+    
+.hd_header {
+    background - color: #8461a5;
+            margin-left: 0%;
+            margin-right: 0%;
+            width: 100%;
+        }
+        
+        .hd_image {
+            max-height: 42px;
+        }
+        .hd_sin{
+            margin-top: 2%;
+
+        }
+        
+        .hd_ninja {
+            border-radius: 50%;
+            max-height: 32px;
+        }
+        
+        # hd_jump {
+        padding - top: 2 % ;
+        padding - bottom: 2 % ;
+    }
+
+    #
+    hd_gly {
+        color: white;
+        font - size: x - large;
+    }
+
+    #
+    hd_logo {
+        padding - top: 2 % ;
+        padding - bottom: 2 % ;
+    }
+
+    .img - circle {
+        border - radius: 50 % ;
+
+    }
+
+    .sin {
+        background - color: #8461a5;
+            margin-top: 15%;
+            border: none;
+        }
+        
+        .sin:hover {
+            background-color: # 8461 a5;
+        border: none;
+    }
+
+    .sin: focus {
+            background - color: #8461a5;
+            border: none;
+        }
+        
+        .sin:active {
+            background-color: # 8461 a5;
+            border: none;
+        }
+        .hd {
+            margin - right: 5 % ;
+        }#
+    hd_mn1 {
+        padding - top: 2 % ;
+    }
+    .tlb1 {
+        padding - bottom: 100 % ;
+        border: none;
+    }

@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 login_main">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="login_logo" align="center"></div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <!-- end of inner row class -->
+            <div class="panel panel-default details">
+                <div class="panel-body main">
+                    <div class="inner-panel-body" align="center">
+                        <h3 class="login_h3">Log in to your account</h3>
+                        <br>
+                        <div style="color: red">
+                            {{msg}}
+                        </div>
+                        <form ng-submit="login(user_email,password)">
+                            <div class="input-group">
+                                <span class="input-group-addon transparent">
+									<span class="glyphicon glyphicon-user"></span>
+                                </span>
+                                <input class="form-control left-border-none" placeholder="Email address" ng-model="user_email" type="text">
+                            </div>
+                            <!-- end of input-group class -->
+                            <br>
+                            <div class="input-group">
+                                <span class="input-group-addon transparent">
+									<span class="glyphicon glyphicon-lock"></span>
+                                </span>
+                                <input class="form-control left-border-none" placeholder="Password" ng-model="password" type="password" name="username">
+                            </div>
+                            <br>
+                            <input type="submit" value="Log In" id="login_log" class="form-control">
+                        </form>
+                    </div>
+                    <!-- end of inner-panel-body class -->
+                </div>
+                <!-- end of panel body class -->
+                <div class="panel-footer">
+                    <a ui-sref="signup">New to Heroku? </a>
+                    <a ui-sref="signup">Sign Up</a>
+                </div>
+                <!-- end of panel footer class -->
+            </div>
+            <!-- end of panel defalut class -->
+            <div>
+                <p><a class="login_a" href="#">Log in via SSO </a>&nbsp&nbsp&nbsp<a class="login_a" href="#">Forgot your password?</a>
+                </p>
+            </div>
+
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+    <!-- end of row class -->
+
+</div>
+<!-- end of container class -->

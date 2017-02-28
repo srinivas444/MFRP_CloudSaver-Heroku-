@@ -1,0 +1,28 @@
+#addon_findmore
+		{
+			height: 24px;
+		    line-height: 10px;
+		    padding-left: 12px;
+		    padding-right: 12px;
+		    color: #fff!important;
+    		background-color: #79589F;
+    		width: 140px;
+    		border:none;
+		}
+		.addon_button
+		{
+			padding-left: 40px;
+		}
+		.addon_row
+		{
+			padding-top: 12px;
+		}
+		.addon_transparent 
+		{
+   			background-color: transparent !important;
+    		box-shadow: inset 0px 1px 0 rgba(0,0,0,.075);
+ 		}
+ 		.addon_left{
+    		border-left:none !important;
+    		box-shadow: inset 0px 1px 0 rgba(0,0,0,.075);
+ 		}

@@ -1,0 +1,34 @@
+.ctb1_nav_bar {
+            border-bottom: 1px solid #e7e7e7;
+        }
+        
+        .ctb1_nav_bar ul {
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+            background-color: white;
+            margin-bottom: 0px;
+        }
+        
+        .ctb1_nav_bar li {
+            float: left;
+        }
+        
+        .ctb1_nav_bar li a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .ctb1_nav_bar li a:hover:not(.active) {
+            background-color: white;
+            border-bottom: solid 1px black;
+            text-decoration: none;
+        }
+        
+        .ctb1_nav_bar li a.active {
+            background-color: white;
+            border-bottom: solid 1px black;
+        }

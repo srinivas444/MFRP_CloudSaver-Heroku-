@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+
+	<link rel="icon" type="image/png" href="images/logo.png" >
+	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/login.css">
+	<link rel="stylesheet" type="text/css" href="/css/signup.css">
+	<link rel="stylesheet" type="text/css" href="/css/setpassword.css">
+	<link rel="stylesheet" type="text/css" href="/css/header.css">
+	<link rel="stylesheet" type="text/css" href="/css/home.css">
+	<link rel="stylesheet" type="text/css" href="/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="/css/create_app.css">
+	<link rel="stylesheet" type="text/css" href="/css/dash.css">
+	<link rel="stylesheet" type="text/css" href="/css/dash_nav.css">
+	<link rel="stylesheet" type="text/css" href="/css/dataclip.css">
+</head>
+<body ng-style="{'background-color': Background_color ? '#79589F' : 'white'}">
+
+<div ui-view></div>
+
+</body>
+<script src="/vendor/jquery/jquery-3.1.1.min.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/vendor/angular/angular.min.js"></script>
+<script src="/vendor/angular/angular-ui-router.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/router.js"></script>
+<script type="text/javascript" src="js/controllers/login.ctrl.js"></script>
+<script type="text/javascript" src="js/controllers/signup.ctrl.js"></script>
+<script type="text/javascript" src="js/controllers/set_password.ctrl.js"></script>
+</html>

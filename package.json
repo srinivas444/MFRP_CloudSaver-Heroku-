@@ -1,0 +1,16 @@
+{
+  "name": "heroku",
+  "version": "1.0.0",
+  "description": "cloud server app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Srinivas J.",
+  "license": "ISC"
+}

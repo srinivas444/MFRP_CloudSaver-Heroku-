@@ -1,0 +1,30 @@
+	[data-color="violet"]
+	{
+		background-color: #654a86;
+		color: #fff;
+	}
+	[data-color="white"]
+	{
+		background-color: #654a86;
+		color: #fff;
+	}
+	.signup_logo{
+		height: 100px;
+		background: url("/images/logo-vertical.png") no-repeat;
+	}
+	.signup_a{
+		color: #fff;
+		text-decoration: underline;
+	}
+	.signup_free
+	{
+		color:  #654a86;
+	}
+	.signup_same
+	{
+		color:#66ccff;
+	}
+	#signup_button
+	{
+		border:none;
+	}

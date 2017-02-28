@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>	
+	<style type="text/css">
+	body
+	{
+		font-family: benton-sans, "Helvetica Neue", helvetica, arial, sans-serif;
+	}
+	.container
+	{
+		border: 1px solid #e7e7ec;
+		border-radius: 4px;
+	    padding: 40px 30px 30px 30px;
+	    position: relative;
+	}
+	h1
+	{
+		color: #7d7d8e;
+	    font-size: 14px;
+	    font-family: benton-sans, "Helvetica Neue", helvetica, arial, sans-serif;
+	    font-weight: bold;
+	    margin-top: 0;
+	}
+	.num p
+	{
+		background: rgba(121,88,159,0.8);
+		border-radius: 15px;
+	    color: #fff;
+	    content: '';
+	    display: block;
+	    height: 24px;
+	    line-height: 24px;
+	    margin: 0 auto;
+	    width: 24px;
+	    margin-bottom: 10px;
+	    margin-top: 30px;
+	}
+	.num h6
+	{
+	    font-size: 14px;
+	    line-height: 1.42857143;
+	    color: #3F3F44;
+	}
+	.bottomline
+	{
+		border-bottom: 1px solid #e7e7ec;
+	}
+	.bclip
+	{
+		background-color: #6d4f8f;
+		border-color: #6d4f8f;
+		color: #fff;
+		width: 142px;
+	}
+	.bclip:hover
+	{
+		background-color: #6d4f8f;
+		border-color: #6d4f8f;
+		color: #fff;
+	}
+	.btn:hover
+	{
+		text-decoration: none;
+	}
+	.dataclip
+	{
+		padding-top: 10px;
+	}
+	.linebutton
+	{
+		padding-top: 10px;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="col-md-2"></div>
+		<div class="col-md-8 clip" align="center">
+		   <h1>Getting Started with Dataclips</h1>
+		   <p>Dataclips allow the results of SQL queries on a Heroku Postgres database to be easily shared.</p>
+			<div class="row">
+				<div class="col-md-4 num">
+					<p>1</p>
+					<h6>Create a dataclip using standard SQL against one of your databases.</h6>
+				</div>
+				<div class="col-md-4 num">
+					<p>2</p>
+					<h6>Dataclips contain the results of your SQL, auto-updated and accessible anytime.</h6>
+				</div>
+				<div class="col-md-4 num">
+					<p>3</p>
+					<h6>Dataclips URLs are sharable. They are an easy way to collaborate with your data.</h6>
+				</div>					
+			</div>
+			<hr class="bottomline"></hr>
+			<div class="linebutton">				
+				<button type="button" class="btn btn-primary bclip">Creat Dataclip</button>
+			</div>
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+</body>
+</html>

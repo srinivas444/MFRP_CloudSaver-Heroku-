@@ -1,0 +1,57 @@
+.dataclip_container
+	{
+		border: 1px solid #e7e7ec;
+		border-radius: 4px;
+	    padding: 40px 30px 30px 30px;
+	    position: relative;
+	    font-family: benton-sans, "Helvetica Neue", helvetica, arial, sans-serif;
+	}
+	.dataclip_h1
+	{
+		color: #7d7d8e;
+	    font-size: 14px;
+	    font-family: benton-sans, "Helvetica Neue", helvetica, arial, sans-serif;
+	    font-weight: bold;
+	    margin-top: 0;
+	}
+	.dataclip_num p
+	{
+		background: rgba(121,88,159,0.8);
+		border-radius: 15px;
+	    color: #fff;
+	    content: '';
+	    display: block;
+	    height: 24px;
+	    line-height: 24px;
+	    margin: 0 auto;
+	    width: 24px;
+	    margin-bottom: 10px;
+	    margin-top: 30px;
+	}
+	.dataclip_num h6
+	{
+	    font-size: 14px;
+	    line-height: 1.42857143;
+	    color: #3F3F44;
+	}
+	.dataclip_bottomline
+	{
+		border-bottom: 1px solid #e7e7ec;
+	}
+	#dataclip_bclip
+	{
+		background-color: #6d4f8f;
+		border: none;
+		color: #fff;
+		width: 142px;
+	}
+	#dataclip_bclip:hover
+	{
+		background-color: #6d4f8f;
+		border-color: #6d4f8f;
+		color: #fff;
+	}
+	.dataclip_linebutton
+	{
+		padding-top: 10px;
+	}

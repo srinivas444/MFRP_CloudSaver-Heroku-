@@ -1,0 +1,55 @@
+<div>
+    <div class="row createapp">
+        <div class="col-sm-6 col-md-4"></div>
+        <div id="create" class="col-sm-6 col-md-4" align="center">
+            <br>
+            <p>Create New App</p>
+        </div>
+        <div class="col-sm-6 col-md-4"></div>
+    </div>
+
+    <div class="container">
+
+        <div class="row createapp_maincontent">
+            <div class="col-md-4">
+                <h4>App Name (optional)</h4>
+                <p>Leave blank and we'll choose one for you.</p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 ">
+                <input id="new-app-name" autocomplete="off" type="text" class="form-control  ">
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+        <hr>
+        <div class="row createapp_maincontent">
+            <div class="col-md-4">
+                <h4 id="createapp_runtime">Runtime Selection</h4>
+                <p>Your app can run in your choice of region in the Common Runtime</p>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 ">
+                <select id="common-runtime-select" tabindex="0" class="form-control ">
+
+                    <option>Choose Region for the Common Runtime</option>
+                    <option> United States
+                    </option>
+                    <option> Europe
+                    </option>
+                </select>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+        <hr>
+
+        <div class="col-md-5"></div>
+        <div class="col-md-5 ">
+            <button id="createapp_createapp" ui-sref="home.dash_nav" class="btn btn-primary btn-lg create-app-button" data-ember-action="1420">
+                Create App
+            </button>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</div>

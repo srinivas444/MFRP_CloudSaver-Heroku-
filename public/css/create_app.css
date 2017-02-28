@@ -1,0 +1,17 @@
+.createapp {
+            min-width: 100px;
+            background-color: #e7ebf3;
+            min-height: 65px;
+        }
+        
+        .createapp_maincontent {
+            padding: 30px 0 20px 0;
+        }
+        
+        #createapp_runtime{
+            margin-top: 0;
+        }
+        
+        #createapp_createapp {
+            background-color: #79589F;
+        }

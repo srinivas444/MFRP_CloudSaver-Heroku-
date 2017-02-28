@@ -1,0 +1,38 @@
+	[data-color="violet"]
+	{
+		background-color: #654a86;
+		color: #fff;
+	}
+	.login_a{
+		color: #fff;
+	}
+	.login_logo{
+		height: 100px;
+		background: url("/images/logo-vertical.png") no-repeat;
+		color: #fff;
+	}
+	.login_main{
+		position: relative;
+		top: 50px;
+	}
+	.login_h3
+	{
+		font-family: inherit;
+    	font-weight: 200;
+    	line-height: 1.1;
+    	color: #79589f;
+    	font-size: 24px;
+	}
+
+	#login_log
+	{
+		width: 100%;
+		background-color: #6d4f8f;
+		border-color: #6d4f8f;
+		color: #fff;
+		height: 45px;
+	}
+	.login_a:hover
+	{
+		color:#ffffff;
+	}

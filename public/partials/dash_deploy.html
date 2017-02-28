@@ -1,0 +1,168 @@
+<div class="single">
+            <div class="container-fluid">
+                <ul class="list-group">
+                    <li class="deploy-pipeline  list-group-item row">
+                        <div class="panel-section-buttons  col-md-4">
+                            <div class="panel-description">
+                                <div class="panel-title-single">
+                                    <i class="icon-pipeline-add icon panel-icon"></i> Add this app to a pipeline
+                                </div>
+
+                                <div class="panel-details-single">
+                                    Create a new pipeline or choose an existing one and add this app to a stage in it.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+
+                            <div class="panel-content-single">
+                                <h4>
+                                    Add this app to a stage in a pipeline to enable additional features
+                                </h4>
+                            </div>
+
+                            <ul class="pipeline-features list-group row">
+                                <li class="col-md-6 list-group-item">
+                                    <i class="icon icon-pipeline-feature-promote"></i>
+                                    <p class="panel-content-paras-single">
+                                        Pipelines let you connect multiple apps together and <b>promote code</b> between them.
+                                        <a class="links-single" href="https://devcenter.heroku.com/articles/pipelines">Learn more</a>.
+                                    </p>
+                                </li>
+                                <li class="col-md-6 list-group-item">
+                                    <i class="icon icon-pipeline-feature-review"></i>
+                                    <p class="panel-content-paras-single">
+                                        Pipelines connected to GitHub can enable <b>review apps</b>, and create apps for new pull requests.
+                                        <a class="links-single" href="https://devcenter.heroku.com/articles/pipelines">Learn more</a>.
+                                    </p>
+                                </li>
+                            </ul>
+
+                            <div class="pipeline-actions">
+                                <button id="show" class="btn btn-primary">
+							              New Pipeline…
+							            </button>
+
+
+                                <div class="btn-group">
+                                    <button class="drop-down__toggle btn btn-default">
+											    
+											      Add to a Pipeline
+					     				 <i class="icon icon-caret-purple btn-caret"></i>
+					    
+											</button>
+
+                                </div>
+                                <div id="show1" style="display: none;">
+                                    <form class=".pipeline-form-single edit-first">
+                                        <label for="pipeline-name">Pipeline Name</label>
+                                        <div class="form-group ">
+                                            <input autocomplete="off" name="pipeline-name" type="text" class="form-control ">
+
+                                        </div>
+                                        <button class="btn btn-primary">
+									                Create Pipeline
+									              </button>
+                                    </form>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="list-group-item row">
+                        <div class="panel-section-buttons1">
+                            <div class="panel-description col-md-4">
+                                <div class="panel-title-single">
+                                    Deployment method
+                                </div>
+                            </div>
+
+                            <div class="panel-content">
+                                <ul class="nav deploy-nav nav-pills">
+                                    <li class="deploy-tab tab-heroku-git">
+                                        <button type="button" class="btn btn-default deploy-but-1">
+							       <a href="/apps/sagiapp1/deploy/heroku-git">          
+							       
+							          
+								 </a>
+								  </button>
+                                    </li>
+
+                                    <li class="deploy-tab tab-github ">
+                                        <button type="button" class="btn btn-default deploy-but-2">
+									<a href="/apps/sagiapp1/deploy/github">            
+									
+									</a>     
+									 </button>
+                                    </li>
+
+                                    <li class="deploy-tab tab-dropbox ">
+                                        <button type="button" class="btn btn-default deploy-but-3"> 
+										<a href="/apps/sagiapp1/deploy/dropbox">         
+										
+										</a> 
+									</button>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item row">
+                        <div class="panel-section-buttons col-md-4">
+                            <div class="panel-description">
+                                <div class="panel-title-single">
+                                    Deploy using Heroku Git
+                                </div>
+
+                                <div class="panel-details-single">
+                                    Use git in the command line or a GUI tool to deploy this app.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel-content col-md-8">
+                            <div class="panel-content-single">
+                                <h4>Install the Heroku CLI</h4>
+                            </div>
+                            <p class="panel-content-paras-single">Download and install the <a href="https://devcenter.heroku.com/articles/heroku-command-line">Heroku CLI</a>.</p>
+
+                            <p class="panel-content-paras-single">If you haven't already, log in to your Heroku account and follow the prompts to create a new SSH public key.</p>
+
+                            <pre>$ heroku login</pre>
+                            <div class="panel-content-single">
+                                <h4>Create a new Git repository</h4>
+                            </div>
+                            <p class="panel-content-paras-single">Initialize a git repository in a new or existing directory</p>
+
+                            <pre>$ cd my-project/ 
+$ git init 
+$ heroku git:remote -a </pre>
+                            <div class="panel-content-single">
+                                <h4>Deploy your application</h4>
+                            </div>
+                            <p class="panel-content-paras-single">Commit your code to the repository and deploy it to Heroku using Git.</p>
+
+                            <pre>$ git add .
+$ git commit -am "make it better"
+$ git push heroku master</pre>
+
+                            <hr>
+                            <div class="panel-content-single">
+                                <h4>Existing Git repository</h4>
+                            </div>
+                            <p class="panel-content-paras-single">For existing repositories, simply add the <code>heroku</code> remote</p>
+                            <pre>$ heroku git:remote -a sagiapp1</pre>
+
+                        </div>
+
+                    </li>
+
+
+                </ul>
+
+
+
+            </div>
+        </div>
